@@ -1,21 +1,27 @@
 p {
-    color: red;
-	font-size: 20px;
-
-    letter-spacing: 0.5em;
-    word-spacing: 0.5em;
-    line-height: 2;
-    text-align: left;
+    font: 14px/1.5 "Times New Roman", times, serif;
+    padding: 30px 10px;
+    border: 1px black solid;
+    border-width: 1px 5px 5px 1px;
+    border-color: red green blue yellow;
+    margin: 10px 50px;
 }
 
 
 a {
      text-decoration: none;
 }
-body {
-    font-size: 14px;
-    color: rgb(255, 255, 255);
-	  background-color: rgb(100, 100, 100);
+#navigation a {
+    display: block;
+    padding: 20px 10px;
+}
+
+
+	  body {
+color: rgb(255, 255, 255);
+    background: rgb(100, 100, 100); 
+url(http://www.htmldog.com/images/bg.gif) no-repeat top right;
+
 }
 h1 {
     color: #ffc;
